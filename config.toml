@@ -6,7 +6,7 @@ theme = "itheme"
 [params]
 
   defaultCover = 'https://www.fgdc.gov/img/slider/slider-bg-network.jpg/image' 
-  email = 'floyd.li@outlook.com'
+
   [[params.socialMedia]] 
     name = 'Github'
     url = 'https://github.com/claudezss'
