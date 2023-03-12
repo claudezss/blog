@@ -1,4 +1,24 @@
-baseURL = "http://example.org/"
+baseURL = "https://claudezss-blog.vercel.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Yan's Blogs"
+theme = "hugo-theme-itheme"
+
+[params]
+
+  defaultCover = 'https://www.fgdc.gov/img/slider/slider-bg-network.jpg/image' 
+  email = 'floyd.li@outlook.com'
+  [[params.socialMedia]] 
+    name = 'Github'
+    url = 'https://github.com/claudezss'
+
+  [[params.socialMedia]]
+    name = 'Twitter'
+    url = 'https://twitter.com/some-one'
+
+  [[params.blogroll]] 
+    name = 'Apple'
+    url = 'https://Apple.com/'
+
+  [[params.blogroll]]
+    name = 'Google'
+    url = 'https://Google.com/'
