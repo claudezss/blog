@@ -2,8 +2,8 @@
 title: 'Access OneDrive via Microsoft Graph API'
 date: '2022-10-27T13:06:38+08:00'
 draft: false
-description: 'some description of the article'
-author: 'author of this article'
+description: 'use api to download onedrive file'
+author: 'Yan'
 tags: ["python", "microsoft graph api"]
 theme: "dark"
 ---
