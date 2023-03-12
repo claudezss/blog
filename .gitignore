@@ -1,2 +1,5 @@
 .env
 .env.build
+/content/.obsidian/
+*/.obsidian/
+.idea/
