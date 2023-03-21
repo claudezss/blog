@@ -1,7 +1,7 @@
 ---
 title: 'Call Python Function by Dynamical Name'
 date: '2023-03-12T13:06:38+08:00'
-draft: false
+draft: true
 description: 'python function'
 author: 'Yan'
 tags: ["python"]
