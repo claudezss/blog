@@ -5,7 +5,7 @@ draft: false
 description: 'integrate kafka consumer with websocket server'
 author: 'Yan'
 tags: ["python", "kafka", "websocket"]
-theme: "dark"
+theme: "auto"
 ---
 
 # Introduction
