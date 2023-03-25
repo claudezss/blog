@@ -10,7 +10,7 @@ theme: "dark"
 
 # Introduction
 
-In this post, I will show you how to integrate kafka consumer with websocket server. The websocket server will send message to client when it receives message from kafka consumer. [source code][https://github.com/claudezss/heizer/tree/main/samples/websockets]
+In this post, I will show you how to integrate kafka consumer with websocket server. The websocket server will send message to client when it receives message from kafka consumer. [source code](https://github.com/claudezss/heizer/tree/main/samples/websockets)
 
 # Steps
 
@@ -164,7 +164,7 @@ In this post, I will show you how to integrate kafka consumer with websocket ser
    
    by [kafka-ui](http://localhost:8080/ui/clusters/local/all-topics/topic.test)
 
-   ![Publish Message](/kafka-websocket/ublish-kafka-msg.png)
+   ![Publish Message](/kafka-websocket/publish-kafka-msg.png)
 
 
 7. You will see the message in browser
