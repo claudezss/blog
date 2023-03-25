@@ -1,10 +1,10 @@
 ---
-title: 'Use Kafka Consumer As Websocket Server.md'
+title: 'Use Kafka Consumer As Websocket Server'
 date: '2023-03-25T13:06:38+08:00'
 draft: false
 description: 'integrate kafka consumer with websocket server'
 author: 'Yan'
-tags: ["python", "kafka", "websocket
+tags: ["python", "kafka", "websocket"]
 theme: "dark"
 ---
 
