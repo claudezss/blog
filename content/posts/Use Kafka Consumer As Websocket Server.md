@@ -58,12 +58,17 @@ In this post, I will show you how to integrate kafka consumer with websocket ser
     pip install --pre heizer
     pip install websockets
     ```
+
+
 3. Create a kafka topic `topic.test`
-   you can create new topic in [kafka-ui] (http://localhost:8080/ui/clusters/local/topics)
+
+   you can create new topic in [kafka-ui](http://localhost:8080/ui/clusters/local/topics)
    
    ![Create Topic](/kafka-websocket/create-topic.png)
 
 4. Create websocket server `server.py` on `ws://localhost:8001`. [source code](https://github.com/claudezss/heizer/blob/main/samples/websockets/server.py)
+
+
    ```python
    import asyncio
    import websockets
@@ -95,12 +100,16 @@ In this post, I will show you how to integrate kafka consumer with websocket ser
        asyncio.run(main())
 
    ```
-   and run `python server.py`
+
+    and run `python server.py`
+
    ```bash
    python server.py
    `````
 
 5. Create websocket client `client.html` and listen to `ws://localhost:8001`. [source code](https://github.com/claudezss/heizer/blob/main/samples/websockets/client.html)
+
+
    ```html
    <!DOCTYPE html>
 
@@ -148,7 +157,8 @@ In this post, I will show you how to integrate kafka consumer with websocket ser
    </script>
    </html>
    ```
-    and open `client.html` in browser
+
+	and open `client.html` in browser
 
 6. Publish message to kafka topic `topic.test` and you will see the message in browser
    
